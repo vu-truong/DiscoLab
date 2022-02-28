@@ -1,0 +1,11 @@
+{
+  "name": "com.disco.common",
+  "version": "1.0.0",
+  "displayName": "Disco Common",
+  "description": "Disco common utilities and data structures",
+  "type": "library",
+  "unity": "2020.3",
+  "author": {
+    "name": "Vu Truong"
+  }
+}
