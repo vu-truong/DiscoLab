@@ -1,4 +1,3 @@
-using Disco.Debug;
 using System;
 using System.Diagnostics;
 using System.Threading;
@@ -56,7 +55,7 @@ namespace Disco.Profiling
         {
             var stopwatchElapsedTicks = (_watch.ElapsedTicks - _startTime);
             string sampleName = _samplerName.FastConcat(" -> ").FastConcat(stopwatchElapsedTicks / 10000.0);
-            UnityLogger.LOG_PROFILER(sampleName);
+            StandardLogger.LOG_PROFILER(sampleName);
         }
     }
 }

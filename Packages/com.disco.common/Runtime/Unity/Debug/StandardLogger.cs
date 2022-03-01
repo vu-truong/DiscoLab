@@ -1,9 +1,9 @@
 using System.Diagnostics;
 using UnityEngine;
 
-namespace Disco.Debug
+namespace Disco
 {
-    public static class UnityLogger
+    public static class StandardLogger
     {
         private static readonly string LOG_PROFILER_TAG = "LOG_PROFILER";
 

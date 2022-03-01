@@ -1,7 +1,7 @@
 
 using System.Diagnostics;
 
-namespace Disco.Debug
+namespace Disco
 {
     public static class Assert
     {

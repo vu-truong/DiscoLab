@@ -1,7 +1,6 @@
 
 using UnityEngine;
 using Disco;
-using Disco.Profiling;
 
 public class GameObjectTest : MonoBehaviour
 {
@@ -9,5 +8,6 @@ public class GameObjectTest : MonoBehaviour
     void Start()
     {
         _renderer.SetActive(false);
+        StandardLogger.LOG_PROFILER("tEST");
     }
 }
