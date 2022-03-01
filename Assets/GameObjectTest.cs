@@ -1,6 +1,8 @@
 
 using UnityEngine;
 using Disco.Extensions;
+using Disco;
+using Disco.Profiling;
 
 public class GameObjectTest : MonoBehaviour
 {
@@ -8,5 +10,12 @@ public class GameObjectTest : MonoBehaviour
     void Start()
     {
         this.gameObject.EnableAllRenderers(false);
+        using (var profiler = new StandardProfiler("Profiler Test"))
+        {
+            using (profiler.Sample("Sample Test"))
+            {
+
+            }
+        }
     }
 }

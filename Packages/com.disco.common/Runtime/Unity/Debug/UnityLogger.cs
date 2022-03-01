@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Disco.Debug
 {
-    public static class Logger
+    public static class UnityLogger
     {
         private static readonly string LOG_PROFILER_TAG = "LOG_PROFILER";
 

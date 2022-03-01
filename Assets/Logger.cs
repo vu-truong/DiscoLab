@@ -11,13 +11,13 @@ namespace Disco
         [Conditional("ENABLE_LOG_DI")]
         public static void LOG_DI(string message)
         {
-            Disco.Debug.Logger.LOG(LOG_DI_TAG, message);
+            Disco.Debug.UnityLogger.LOG(LOG_DI_TAG, message);
         }
 
         [Conditional("ENABLE_LOG_DI")]
         public static void LOG_DI(string message, GameObject gameObject)
         {
-            Disco.Debug.Logger.LOG(LOG_DI_TAG, message, gameObject);
+            Disco.Debug.UnityLogger.LOG(LOG_DI_TAG, message, gameObject);
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "name": "com.disco.common",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "displayName": "Disco Common",
   "description": "Disco common utilities and data structures",
   "type": "library",
