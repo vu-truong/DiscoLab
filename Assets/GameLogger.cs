@@ -10,13 +10,13 @@ public static class GameLogger
     [Conditional("ENABLE_LOG_DI")]
     public static void LOG_DI(string message)
     {
-        StandardLogger.LOG(LOG_DI_TAG, message);
+        Disco.DiscoLogger.LOG(LOG_DI_TAG, message);
     }
 
     [Conditional("ENABLE_LOG_DI")]
     public static void LOG_DI(string message, GameObject gameObject)
     {
-        StandardLogger.LOG(LOG_DI_TAG, message, gameObject);
+        Disco.DiscoLogger.LOG(LOG_DI_TAG, message, gameObject);
     }
 }
 

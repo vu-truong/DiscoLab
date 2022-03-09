@@ -7,7 +7,8 @@ public class GameObjectTest : MonoBehaviour
     public MeshRenderer _renderer;
     void Start()
     {
+        //this.SetEnabled_AllChildren
         _renderer.SetActive(false);
-        StandardLogger.LOG_PROFILER("tEST");
+        Disco.DiscoLogger.LOG_PROFILER("tEST");
     }
 }
